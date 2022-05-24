@@ -140,4 +140,3 @@ function parar(){
     espacos.forEach(espaco => espaco.removeEventListener("click", Jogada));
 }
 
-//teste

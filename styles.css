@@ -1,21 +1,22 @@
 body {
 display: flex;
 flex-direction: column;
-background-color: rgb(235, 255, 119);
+background-color: #FFF56B;
 
 }
 section#Cabecalho{
     text-align: center;
     margin-bottom: 15px;
+    text-size-adjust:15px;
 }
 span#Primeiro{
-    color: blueviolet;
+    color: #5D70B3;
 }
 span#Segundo{
-    color: rgb(221, 41, 41);
-}
+    color: #A139B3;
+}#F3ABFF
 span#Fim{
-    color: fuchsia;
+    color: #929AB3;
 }
 
 section#velha {
@@ -27,7 +28,7 @@ section#velha {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: rgb(255, 250, 183);
+    background-color: #fffab7;
     
 }
 
@@ -57,4 +58,12 @@ div.espaco.O{
     box-shadow:  2px 2px 2px 2px black;
     
     
+}
+input#sim,
+input#nao{
+    background-color: #929AB3;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
 }
