@@ -8,15 +8,20 @@ section#Cabecalho{
     text-align: center;
     margin-bottom: 15px;
     text-size-adjust:15px;
+    font-size: larger;
 }
+
 span#Primeiro{
     color: #5D70B3;
+    font-size: large;
+
 }
 span#Segundo{
     color: #A139B3;
-}#F3ABFF
+    font-size: large;
+}
 span#Fim{
-    color: #929AB3;
+    color: #403D1B;
 }
 
 section#velha {

@@ -3,7 +3,7 @@ espacos.forEach(espaco => espaco.addEventListener("click", Jogada));
 var marcas = ['', '', '', '', '', '', '', '', '', '']
 
 var e = 0
-var jAtual = document.querySelector(".jogador")
+var jAtual = document.querySelector("#Display")
 var vit = document.querySelector("#Vitoria")
 var jogador = "X"
 jAtual.innerHTML =`<span id="Primeiro"> Vez de X </span>`
