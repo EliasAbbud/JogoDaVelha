@@ -9,16 +9,15 @@ section#Cabecalho{
     margin-bottom: 15px;
     text-size-adjust:15px;
     font-size: larger;
+    font-weight: bolder;
+
 }
 
 span#Primeiro{
     color: #5D70B3;
-    font-size: large;
-
 }
 span#Segundo{
     color: #A139B3;
-    font-size: large;
 }
 span#Fim{
     color: #403D1B;
@@ -53,7 +52,7 @@ div.espaco.O{
 #Vitoria{
     visibility: hidden;
     position:absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff6a4fa;
     width: 90%;
     margin:32% 12px 32% 12px;
     border: 3px solid black;
@@ -66,9 +65,17 @@ div.espaco.O{
 }
 input#sim,
 input#nao{
-    background-color: #929AB3;
+    background-color: #ffffff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 20px 15px 20px;
     margin: 10px;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+}
+input#sim:hover, 
+input#nao:hover{
+    background-color: #b3b3b3 ;
+
 
 }

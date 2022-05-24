@@ -121,6 +121,7 @@ function Empate(){
 
     vit.style.visibility = "visible"
     vit.firstElementChild.innerHTML = "Empate" 
+    console.log(vit.firstElementChild)
 }
 //reseta as variáveis para que uma nova partida seja jogada
 function resetar(){
